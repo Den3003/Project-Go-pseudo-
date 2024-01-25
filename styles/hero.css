@@ -1,0 +1,33 @@
+.hero {
+  position: relative;
+  height: 823px;
+}
+
+.hero-title {
+  font-size: 150px;
+  font-weight: 900;
+  line-height: 100%; 
+  letter-spacing: -15px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.hero-subtitle {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+  margin: 0;
+  padding-left: 100px;
+}
+
+.hero-title:after {
+  position: absolute;
+  content: "";
+  background-image: url("../images/main/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 61px;
+  right: 0;
+  width: 675px;
+  height: 762px;
+}
