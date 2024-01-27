@@ -1,6 +1,10 @@
 .hero {
+  padding: 0 0 50px;
+}
+
+.hero-container {
   position: relative;
-  height: 823px;
+  min-height: 823px;
 }
 
 .hero-title {
@@ -26,8 +30,8 @@
   background-image: url("../images/main/hero.png");
   background-repeat: no-repeat;
   background-position: center;
-  top: 61px;
-  right: 0;
+  right: 30px;
+  bottom: 0;
   width: 675px;
   height: 762px;
 }
